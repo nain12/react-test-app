@@ -1,0 +1,13 @@
+.Wrapper {
+	background-color: white;
+	width: 100%;
+	border-radius: 20px;
+	margin: 10% auto;
+	border: 1px solid blue;
+	display: flex;
+	padding: 30px;
+	gap: 22px;
+	max-width: 900px;
+	padding-bottom: 40px;
+	min-height: 500px;
+}

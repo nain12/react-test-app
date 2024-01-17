@@ -1,0 +1,17 @@
+.Wrapper {
+	background-color: white;
+	border-radius: 20px;
+	margin: 10% auto;
+	border: 1px solid blue;
+	padding: 16px;
+	gap: 22px;
+	width: 50%;
+	max-width: 500px;
+}
+
+.Heading {
+	font-family: 'Ubuntu Bold', Arial, sans-serif;
+	font-size: 28px;
+	color: blue;
+	margin: 14px 0 32px 0;
+}

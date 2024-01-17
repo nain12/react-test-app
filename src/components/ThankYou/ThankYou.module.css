@@ -1,0 +1,26 @@
+.Container {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	transform: translateY(65%);
+}
+
+.Heading {
+	font-family: 'Ubuntu Bold', Arial, sans-serif;
+	color: black;
+	font-size: 30px;
+	text-align: center;
+	margin: 0 0 20px 0;
+}
+
+.Text {
+	font-family: 'Ubuntu Regular', Arial, sans-serif;
+	color: darkgray;
+	font-size: 18px;
+	line-height: 1.5;
+	text-align: center;
+	width: 80%;
+	margin: auto;
+}

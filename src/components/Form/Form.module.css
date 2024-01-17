@@ -1,0 +1,45 @@
+:root {
+	--width: 94%;
+}
+
+.Wrapper {
+	background-color: white;
+	min-height: 600px;
+	border-radius: 20px;
+	margin: 10% auto;
+	border: 1px solid blue;
+	display: flex;
+	padding: 16px;
+	gap: 22px;
+	width: 80%;
+	max-width: 870px;
+	position: relative;
+	padding-bottom: 60px;
+}
+
+.Container {
+	position: relative;
+	width: 85%;
+	height: 94%;
+}
+
+.Heading {
+	font-family: 'Ubuntu Bold', Arial, sans-serif;
+	font-size: 28px;
+	color: blue;
+	margin: 32px 0 14px 0;
+}
+
+.SubHeading {
+	font-family: 'Ubuntu Regular', Arial, sans-serif;
+	font-size: 18px;
+	color: gray;
+	margin: 0 0 32px 0;
+}
+
+.ButtonContainer {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row-reverse;
+}

@@ -1,0 +1,50 @@
+.Container {
+	display: flex;
+}
+
+.InActive {
+	height: 40px;
+	width: 40px;
+	background-color: transparent;
+	border: 1px solid black;
+	border-radius: 50%;
+	color: blue;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.Active {
+	height: 40px;
+	width: 40px;
+	background-color: blue;
+	border: 1px solid black;
+	border-radius: 50%;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.Info {
+	margin: 0 0 0 16px;
+	display: flex;
+	flex-direction: column;
+}
+
+.Number {
+	display: block;
+	color: blue;
+	font-size: 14px;
+	margin: 0 0 4px 0;
+	text-transform: uppercase;
+	font-family: 'Ubuntu Regular', Arial, sans-serif;
+}
+
+.Name {
+	display: block;
+	color: black;
+	text-transform: uppercase;
+	font-family: 'Ubuntu Medium', Arial, sans-serif;
+	letter-spacing: 1px;
+}
